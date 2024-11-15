@@ -19,18 +19,17 @@ chocolates = [
         "price": 4.99
     },
     {
-        "name": "Crean Chocolate",
+        "name": "Cream Chocolate",
         "image": "https://m.media-amazon.com/images/I/61-pg5u+9pL.jpg",
         "price": 6.99
-        
-    }
-        {
+    },
+    {
         "name": "White Chocolate",
         "image": "https://m.media-amazon.com/images/I/61-pg5u+9pL.jpg",
         "price": 6.65
-        
     }
 ]
+
 
 @app.route('/chocolates', methods=['GET'])
 def get_chocolates():
